@@ -31,3 +31,7 @@ ${数字:todo}
 " 表示补全以后光标停留的位置，用花括号的部分会被选中用来提示替换  
 " 数字代表顺序，从1开始，0是最后光标停留的位置  
 endsnippet  
+### 以下是Example
+snippet hello "Print Hello World" A
+printf("Hello World!\n");
+endsnippet
