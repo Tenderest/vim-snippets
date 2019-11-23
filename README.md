@@ -32,6 +32,6 @@ ${数字:todo}
 " 数字代表顺序，从1开始，0是最后光标停留的位置  
 endsnippet  
 ### 以下是Example
-snippet hello "Print Hello World" A
-printf("Hello World!\n");
+snippet hello "Print Hello World" A  
+printf("Hello World!\n");  
 endsnippet
