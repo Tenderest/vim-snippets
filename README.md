@@ -7,8 +7,11 @@ Plugin 'SirVer/ultisnips'
 "  
 " Ultisnips setting  
 "  
+"展开代码片段"  
 let g:UltiSnipsExpandTrigger="\<C-i\>"  
+"下一个触发点"  
 let g:UltiSnipsJumpForwardTrigger="\<C-n\>"  
+"上一个触发点"  
 let g:UltiSnipsJumpBackwardTrigger="\<C-N\>"  
 " 使用 UltiSnipsEdit 命令时垂直分割屏幕  
 let g:UltiSnipsEditSplit="vertical"  
