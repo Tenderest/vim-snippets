@@ -1,4 +1,4 @@
-# 这是我的snippets（代码块）备份  
+# 这是我的snippets（代码片段）备份  
 1. 使用Vim插件使用vundle管理  
 "  
 " Ultisnips  
