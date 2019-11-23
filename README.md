@@ -17,3 +17,11 @@ let g:UltiSnipsJumpBackwardTrigger="\<C-N\>"
 let g:UltiSnipsEditSplit="vertical"  
 1. 使用自己的代码片段仓库
 'Tenderest/vim-snippets'  
+1. 文件目录在  
+~/.vim/bundle/vim-snippets  
+
+" 如果文件不是在 ~/.vim/mycoolsnippets  
+" 每次进入Vim自动寻找目录下的Snippets文件配置  
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/bundle/vim-snippets']  
+" 如果文件在 ~/.vim/mycoolsnippets  
+" let g:UltiSnipsSnippetDirectories=["UltiSnips", "mycoolsnippets"]  
