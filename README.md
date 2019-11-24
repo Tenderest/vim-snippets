@@ -8,11 +8,11 @@ Plugin 'SirVer/ultisnips'
 " Ultisnips setting  
 "  
 "展开代码片段"  
-let g:UltiSnipsExpandTrigger="\<C-i\>"  
+let g:UltiSnipsExpandTrigger="\<LEADER\>l"  
 "下一个触发点"  
-let g:UltiSnipsJumpForwardTrigger="\<C-n\>"  
+let g:UltiSnipsJumpForwardTrigger="\<LEADER\>l"  
 "上一个触发点"  
-let g:UltiSnipsJumpBackwardTrigger="\<C-N\>"  
+let g:UltiSnipsJumpBackwardTrigger="\<LEADER\>h"  
 " 使用 UltiSnipsEdit 命令时垂直分割屏幕  
 let g:UltiSnipsEditSplit="vertical"  
 1. 使用自己的代码片段仓库
