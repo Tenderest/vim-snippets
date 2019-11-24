@@ -73,7 +73,43 @@ for ( ${1:初始化}; ${2:条件}; ${3:更新值} )
 $0
 endsnippet
 
-snippet put\n "Putchar \n" A
+snippet putn "Putchar \n" A
 putchar('\n');
 $0
+endsnippet
+
+snippet funvoid; "声明一个返回值void的函数" A
+void ${1:Function Name} (${2:参数列表});
+$0
+endsnippet
+
+snippet funvoid "定义一个返回值void的函数"
+void ${1:Function Name} (${2:参数列表})
+{
+	${3:Function Name}
+}$0
+endsnippet
+
+snippet funint; "声明一个返回值int的函数" A
+int ${1:Function Name} (${2:参数列表});
+$0
+endsnippet
+
+snippet funint "定义一个返回值int的函数"
+int ${1:Function Name} (${2:参数列表})
+{
+	${3:Function Name}
+}$0
+endsnippet
+
+snippet funwhat; "声明一个返回值自定义的函数"
+${1:Return Type} ${2:Function Name} (${3:参数列表});
+$0
+endsnippet
+
+snippet funwhat "定义一个返回值int的函数"
+${1:Return Type} ${2:Function Name} (${3:参数列表})
+{
+	${4:Function Name}
+}$0
 endsnippet
