@@ -1,0 +1,118 @@
+snippet #iostream "Comment Section" A
+#include <iostream>
+${0}
+endsnippet
+
+snippet main "Function main body" A
+int main(void)
+{
+	${1:Function Body}
+	return 0;
+}
+endsnippet
+
+snippet usingstd "using namespace std" A
+using namespace std;
+${0}
+endsnippet
+
+snippet print "Print 不带参数"
+printf("${1:Print Something}");$0
+endsnippet
+
+snippet printf "Print 带参数" A
+printf("${1:Print Something}", ${2:参数});$0
+endsnippet
+
+snippet scan "Scan Something" A
+scanf("${1:Scan Something}", &${2:参数});$0
+endsnippet
+
+snippet if "if" A
+if ( ${1:条件} )
+{
+	${2:语句}
+}
+$0
+endsnippet
+
+snippet ie "if..else"
+if ( ${1:条件} )
+{
+	${2:语句}
+}
+else
+{
+	${3:语句}
+}
+$0
+endsnippet
+
+snippet iei "if..else if"
+if ( ${1:条件} )
+{
+	${2:语句}
+}
+else if( ${3:条件} )
+{
+	${4:语句}
+}
+$0
+endsnippet
+
+snippet while "While Loop" A
+while ( ${1:条件} )
+{
+	${2:语句}
+}
+$0
+endsnippet
+
+snippet for "For Loop" A
+for ( ${1:初始化}; ${2:条件}; ${3:更新值} )
+{
+	${4:语句}
+}
+$0
+endsnippet
+
+snippet putn "Putchar \n" A
+putchar('\n');
+$0
+endsnippet
+
+snippet funvoid; "声明一个返回值void的函数" A
+void ${1:Function Name} (${2:参数列表});
+$0
+endsnippet
+
+snippet funvoid "定义一个返回值void的函数"
+void ${1:Function Name} (${2:参数列表})
+{
+	${3:Function Name}
+}$0
+endsnippet
+
+snippet funint; "声明一个返回值int的函数" A
+int ${1:Function Name} (${2:参数列表});
+$0
+endsnippet
+
+snippet funint "定义一个返回值int的函数"
+int ${1:Function Name} (${2:参数列表})
+{
+	${3:Function Name}
+}$0
+endsnippet
+
+snippet funwhat; "声明一个返回值自定义的函数"
+${1:Return Type} ${2:Function Name} (${3:参数列表});
+$0
+endsnippet
+
+snippet funwhat "定义一个返回值int的函数"
+${1:Return Type} ${2:Function Name} (${3:参数列表})
+{
+	${4:Function Name}
+}$0
+endsnippet
